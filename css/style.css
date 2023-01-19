@@ -1,0 +1,139 @@
+/*  Scrollbar personalizada  */
+
+body::-webkit-scrollbar {
+  	width:5px;              
+}
+
+body::-webkit-scrollbar-track {
+  	background:#141c3a;        
+}
+
+body::-webkit-scrollbar-thumb {
+  	background-color:#6e07f3;    
+}
+
+body{
+	background-color:#fff;
+}
+
+body{
+  	-o-background-color:#fff;    
+}
+
+/* Efeito Hover links */
+
+a{
+	color:white;
+	transition:0.3s ease;
+}
+
+a:hover{
+	color:#f2f2f2;
+}
+
+/* Backgrounds-colors */
+
+.bg-purple{
+	background-color:#6e07f3;
+}
+
+.bg-green-light{
+	background-color:#5be9b9;
+}
+
+.bg-black-light{
+	background-color:#141c3a;
+}
+
+/* fonts e cores dos texto e titulos */
+
+.font-style-title{
+	font-family: 'Kanit', sans-serif;
+	font-weight:500;
+	color:#141c3a;
+}
+
+.font-style-text{
+	font-family: 'Rubik', sans-serif;
+	font-weight:400;
+}
+
+.font-black-light{
+	color:#141c3a;
+}
+
+.font-green-light{
+	color:#5be9b9;
+}
+
+.font-purple-light{
+	color:#6e07f3;
+}
+
+/* position-relatives */
+
+.position-rel-minus{
+	position:relative;
+	top:-40%;
+}
+
+.position-rel-plus{
+	position:relative;
+	top:20%;
+}
+
+/* botões personalizados */
+
+.buttonClass, .buttonClass2{
+  	text-align:center;
+  	text-decoration:none;
+  	padding:10px;
+  	overflow:hidden;
+  	transition:0.3s ease;
+}
+
+.buttonClass{
+	color:#6e07f3;
+  	border:2px solid #6e07f3;
+  	background-color:#fff;
+}
+
+.buttonClass2{
+  	color:#fff;
+  	border:2px solid #5be9b9;
+  	background-color:#141c3a;
+}
+
+.buttonClass:hover{
+	background-color:#6e07f3;
+	color:#fff;
+}
+
+.buttonClass2:hover{
+	background-color:#5be9b9;
+	color:#141c3a;
+}
+
+@media (max-width: 499px){
+	.position-rel-minus{
+		position:relative;
+		top:-10%;
+	}
+
+	.position-rel-plus{
+		position:relative;
+		top:10%;
+	}
+}
+
+
+
+
+
+
+             
+
+
+ 
+  
+  
