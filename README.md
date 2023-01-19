@@ -2,7 +2,7 @@ Olá eu sou o Douglas!👋
 
 - 🔭 Freelancer!
 - 🌱 Estou estudando desenvolvimento web faz + de 2 anos, no momento dedicado ao PHP
-- 📫 Contate me no email: dougoliveira564@gmail.com ou pelo WhatsApp(11 916716530)
+- 📫 Meu portfólio https://doug-to.netlify.app/
 - ⚡ Depois dos estudos, adoro jogar video game!
 - ☕ Eu gosto muito, tipo muito mesmo de café!
 - 📜 Tenho formação tecnica (Curso sobre front-end & desenvolvimento web) pela escola EAD danki.code .
