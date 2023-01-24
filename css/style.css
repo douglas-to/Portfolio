@@ -114,7 +114,7 @@ a:hover{
 	color:#141c3a;
 }
 
-@media (max-width: 499px){
+@media (max-width: 699px){
 	.position-rel-minus{
 		position:relative;
 		top:-10%;
@@ -123,6 +123,10 @@ a:hover{
 	.position-rel-plus{
 		position:relative;
 		top:10%;
+	}
+
+	.responsive-title{
+		word-break: break-all;
 	}
 }
 
