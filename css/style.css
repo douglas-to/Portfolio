@@ -127,6 +127,13 @@ a:hover{
 }
 
 @media (max-width: 550px){
+	.text-width{
+		width:100%;
+	}
+
+}
+
+@media (max-width: 500px){
 	.position-rel-minus{
 		position:relative;
 		top:-10%;
@@ -137,12 +144,12 @@ a:hover{
 		top:10%;
 	}
 
-	.text-width{
-		width:100%;
+	.font-size{
+		font-size:16px;
 	}
 
-	.font-size{
-		font-size:18px;
+	.bg-height{
+		height:50vh;
 	}	
 }
 
