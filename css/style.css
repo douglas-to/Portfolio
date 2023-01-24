@@ -126,17 +126,10 @@ a:hover{
 	color:#141c3a;
 }
 
-@media (max-width: 550px){
-	.text-width{
-		width:100%;
-	}
-
-}
-
-@media (max-width: 500px){
+@media (max-width: 600px){
 	.position-rel-minus{
 		position:relative;
-		top:-10%;
+		top:-25%;
 	}
 
 	.position-rel-plus{
@@ -144,13 +137,29 @@ a:hover{
 		top:10%;
 	}
 
+	.text-width{
+		width:100%;
+	}
+
+	.break-text{
+		display:flex;
+		flex-direction:column;
+	}
+
 	.font-size{
-		font-size:16px;
+		font-size:20px;
 	}
 
 	.bg-height{
-		height:50vh;
+		height:70vh;
 	}	
+}
+
+@media (max-width: 499px){
+	.bg-height{
+		height:100vh;
+	}	
+
 }
 
 
