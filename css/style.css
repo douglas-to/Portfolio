@@ -45,12 +45,24 @@ a:hover{
 	background-color:#141c3a;
 }
 
+.bg-height{
+	height:75vh;
+}
+
 /* fonts e cores dos texto e titulos */
 
 .font-style-title{
 	font-family: 'Kanit', sans-serif;
 	font-weight:500;
 	color:#141c3a;
+}
+
+.font-size{
+	font-size:35px;
+}
+
+.text-width{
+	width:50%;
 }
 
 .font-style-text{
@@ -114,7 +126,7 @@ a:hover{
 	color:#141c3a;
 }
 
-@media (max-width: 500px){
+@media (max-width: 550px){
 	.position-rel-minus{
 		position:relative;
 		top:-10%;
@@ -125,9 +137,13 @@ a:hover{
 		top:10%;
 	}
 
-	.responsive-title{
-		word-break: break-all;
+	.text-width{
+		width:100%;
 	}
+
+	.font-size{
+		font-size:18px;
+	}	
 }
 
 
