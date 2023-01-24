@@ -114,7 +114,7 @@ a:hover{
 	color:#141c3a;
 }
 
-@media (max-width: 699px){
+@media (max-width: 500px){
 	.position-rel-minus{
 		position:relative;
 		top:-10%;
