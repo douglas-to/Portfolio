@@ -129,7 +129,7 @@ a:hover{
 @media (max-width: 600px){
 	.position-rel-minus{
 		position:relative;
-		top:-25%;
+		top:-40%;
 	}
 
 	.position-rel-plus{
@@ -155,9 +155,14 @@ a:hover{
 	}	
 }
 
-@media (max-width: 499px){
+@media (max-width: 550px){
+	.position-rel-minus{
+		position:relative;
+		top:-20%;
+	}
+
 	.bg-height{
-		height:100vh;
+		height:90vh;
 	}
 
 	.font-size-2{
