@@ -62,7 +62,7 @@ a:hover{
 }
 
 .text-width{
-	width:50%;
+	width:65%;
 }
 
 .font-style-text{
@@ -86,7 +86,7 @@ a:hover{
 
 .position-rel-minus{
 	position:relative;
-	top:-40%;
+	top:-30%;
 }
 
 .position-rel-plus{
@@ -129,7 +129,7 @@ a:hover{
 @media (max-width: 600px){
 	.position-rel-minus{
 		position:relative;
-		top:-40%;
+		top:-20%;
 	}
 
 	.position-rel-plus{
@@ -162,7 +162,7 @@ a:hover{
 	}
 
 	.bg-height{
-		height:90vh;
+		height:80vh;
 	}
 
 	.font-size-2{
