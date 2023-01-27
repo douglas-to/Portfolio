@@ -1,3 +1,24 @@
+/* Inicio CSS */
+
+html, body{
+	height:100%;
+}
+
+.section1, .section2, .section3, .footer{
+	visibility:hidden;
+}
+
+/* Variáveis */
+
+:root{
+	--highlight:#ffd803;
+	--title-color:#272343;
+	--p-color:#2d334a;
+	--primary:#ffffff;
+	--secondary:#e3f6f5;
+	--tertiary:#bae8e8;
+}
+
 /*  Scrollbar personalizada  */
 
 body::-webkit-scrollbar {
@@ -5,48 +26,40 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  	background:#141c3a;        
+  	background:var(--title-color);        
 }
 
 body::-webkit-scrollbar-thumb {
-  	background-color:#6e07f3;    
+  	background-color:var(--highlight);    
 }
 
-body{
-	background-color:#fff;
-}
-
-body{
-  	-o-background-color:#fff;    
-}
-
-/* Efeito Hover links */
-
-a{
-	color:white;
-	transition:0.3s ease;
-}
-
-a:hover{
-	color:#f2f2f2;
-}
 
 /* Backgrounds-colors */
 
-.bg-purple{
-	background-color:#6e07f3;
+body{
+	background-color:var(--primary);
 }
 
-.bg-green-light{
-	background-color:#5be9b9;
+.bg-card-white{
+	background-color:var(--primary);
 }
 
-.bg-black-light{
-	background-color:#141c3a;
+.bg-card{
+	background-color:var(--title-color);
 }
 
-.bg-height{
-	height:75vh;
+.bg-card-secondary{
+	background-color:var(--secondary);
+}
+
+.bg-card-tertiary{
+	background-color:var(--tertiary);
+}
+
+/* width para card de texto */
+
+.width-75{
+	width:75%;
 }
 
 /* fonts e cores dos texto e titulos */
@@ -54,15 +67,6 @@ a:hover{
 .font-style-title{
 	font-family: 'Kanit', sans-serif;
 	font-weight:500;
-	color:#141c3a;
-}
-
-.font-size{
-	font-size:35px;
-}
-
-.text-width{
-	width:65%;
 }
 
 .font-style-text{
@@ -70,33 +74,41 @@ a:hover{
 	font-weight:400;
 }
 
-.font-black-light{
-	color:#141c3a;
+.font-color-title{
+	color:var(--title-color);
 }
 
-.font-green-light{
-	color:#5be9b9;
+.font-color-p{
+	color:var(--p-color);
 }
 
-.font-purple-light{
-	color:#6e07f3;
+.font-color-cards{
+	color:var(--primary);
 }
 
-/* position-relatives */
-
-.position-rel-minus{
-	position:relative;
-	top:-30%;
+.color-tertiary-card{
+	color:var(--tertiary);
 }
 
-.position-rel-plus{
-	position:relative;
-	top:20%;
+.font-size{
+	font-size:35px;
 }
 
-/* botões personalizados */
+.color-icon{
+	color:var(--title-color);
+	transition:0.3s ease;
+}
 
-.buttonClass, .buttonClass2{
+.color-icon:hover{
+	color:var(--highlight);
+}
+
+/* botão personalizado */
+
+.buttonClass{
+	color:var(--p-color);
+  	border:2px solid var(--title-color);
+  	background-color:var(--primary);
   	text-align:center;
   	text-decoration:none;
   	padding:10px;
@@ -104,72 +116,25 @@ a:hover{
   	transition:0.3s ease;
 }
 
-.buttonClass{
-	color:#6e07f3;
-  	border:2px solid #6e07f3;
-  	background-color:#fff;
-}
-
-.buttonClass2{
-  	color:#fff;
-  	border:2px solid #5be9b9;
-  	background-color:#141c3a;
-}
-
 .buttonClass:hover{
-	background-color:#6e07f3;
-	color:#fff;
-}
-
-.buttonClass2:hover{
-	background-color:#5be9b9;
-	color:#141c3a;
+	background-color:var(--highlight);
+	color:var(--title-color);
 }
 
 @media (max-width: 600px){
-	.position-rel-minus{
-		position:relative;
-		top:-20%;
-	}
-
-	.position-rel-plus{
-		position:relative;
-		top:10%;
-	}
-
-	.text-width{
-		width:100%;
-	}
 
 	.break-text{
 		display:flex;
 		flex-direction:column;
 	}
 
-	.font-size, .font-size-2{
+	.font-size{
 		font-size:20px;
 	}
 
-	.bg-height{
-		height:70vh;
-	}	
 }
 
-@media (max-width: 550px){
-	.position-rel-minus{
-		position:relative;
-		top:-20%;
-	}
 
-	.bg-height{
-		height:80vh;
-	}
-
-	.font-size-2{
-		font-size:16px;
-	}	
-
-}
 
 
 
