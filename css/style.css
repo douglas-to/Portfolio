@@ -59,7 +59,7 @@ body{
 /* width para card de texto */
 
 .width{
-	width:75%;
+	width:90%;
 	text-align:center;
 }
 
@@ -130,11 +130,11 @@ body{
 
 	.width{
 		width:95%;
-		text-align:center;
+		text-align:left;
 	}
 }
 
-@media (max-width: 510px){
+@media (max-width: 540px){
 	.font-size-title{
 		font-size:19.5px;
 	}
@@ -144,8 +144,18 @@ body{
 	}
 }
 
+@media (max-width: 450px){
+	.font-size-title{
+		font-size:14px;
+	}
+
+	.font-size-p{
+		font-size:12px;
+	}
+}
+
 @media (max-width: 350px){
-	.font-color-title{
+	.font-size-title{
 		font-size:14px;
 	}
 
