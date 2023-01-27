@@ -91,8 +91,12 @@ body{
 	color:var(--tertiary);
 }
 
-.font-size{
+.font-size-title{
 	font-size:25px;
+}
+
+.font-size-p{
+	font-size:18px;
 }
 
 .color-icon{
@@ -124,11 +128,6 @@ body{
 
 @media (max-width: 600px){
 
-	.break-text{
-		display:flex;
-		flex-direction:column;
-	}
-
 	.width{
 		width:95%;
 		text-align:center;
@@ -136,8 +135,22 @@ body{
 }
 
 @media (max-width: 510px){
-	.font-size{
-		font-size:17.5px;
+	.font-size-title{
+		font-size:19.5px;
+	}
+
+	.font-size-p{
+		font-size:15.5px;
+	}
+}
+
+@media (max-width: 350px){
+	.font-color-title{
+		font-size:14px;
+	}
+
+	.font-size-p{
+		font-size:12px;
 	}
 }
 
