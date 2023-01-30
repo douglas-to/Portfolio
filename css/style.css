@@ -60,7 +60,6 @@ body{
 
 .width{
 	width:90%;
-	text-align:center;
 }
 
 /* fonts e cores dos texto e titulos */
@@ -126,21 +125,30 @@ body{
 	color:var(--title-color);
 }
 
-@media (max-width: 600px){
+/* Tamanhos de textos em diferentes telas */
 
+@media (max-width: 1024px){
 	.width{
 		width:95%;
-		text-align:left;
 	}
-}
 
-@media (max-width: 540px){
 	.font-size-title{
 		font-size:19.5px;
 	}
 
 	.font-size-p{
 		font-size:15.5px;
+	}
+
+}
+
+@media (max-width: 540px){
+	.font-size-title{
+		font-size:16px;
+	}
+
+	.font-size-p{
+		font-size:12px;
 	}
 }
 
@@ -150,7 +158,7 @@ body{
 	}
 
 	.font-size-p{
-		font-size:12px;
+		font-size:9px;
 	}
 }
 
@@ -160,9 +168,12 @@ body{
 	}
 
 	.font-size-p{
-		font-size:12px;
+		font-size:8px;
 	}
 }
+
+
+
 
 
 
