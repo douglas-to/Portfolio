@@ -9,10 +9,10 @@ html, body{
 	height:100%;
 }
 
-.section1, .section2, .section3,.section4, .footer{
-	visibility:hidden;
+ul li, a{
+	list-style-type:none;
+	text-decoration:none;
 }
-
 /* Variáveis */
 
 :root{
