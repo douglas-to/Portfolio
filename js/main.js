@@ -15,7 +15,7 @@ function reposGithub(){
 
 		data.map(item => {
 			let li = document.createElement("li");
-			li.className = 'font-style-title fs-5 text-start';
+			li.className = 'font-style-title fs-5';
 
 			li.innerHTML = `
 				<h5 class="mt-5">${item.name}</h5>
