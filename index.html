@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content = "Devesenvolvedor Front-end e Back-end, Devesenvolvedor web" />
+    <meta name="description" content ="Devesenvolvedor Front-end e Back-end, Devesenvolvedor web" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="author" content="Douglas Trigueiro" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -26,7 +26,6 @@
         <a href="index.html" class="navbar-brand fs-2"><i class="fa-brands fa-dochub color-icon"></i></a>
         <div class="d-flex justify-content-end">
           <a href="https://wa.me/5511916716530" class="buttonClass rounded-4 font-style-title">Mande uma mensagem</a>
-          
         </div> 
       </div>
     </nav><!-- navegação e logo -->   
@@ -46,18 +45,19 @@
     </section><!-- sessão principal -->    
           
     <section class="container section1">
-      <div class="d-flex flex-column justify-content-center align-items-center bg-card-secondary rounded-4">
+      <div class="d-flex flex-column justify-content-center align-items-center bg-card-secondary rounded-4 bord">
         <h1 class="font-style-title font-size-title text-center p-4">
           Olá, eu me chamo Douglas👋
         </h1> 
       
-        <div class="bg-card-white rounded-4 width mb-5 font-size-p font-style-title">
+        <div class="bg-card-white rounded-4 width font-size-p font-style-title">
           <p class="p-3 mt-2 text-center">
-            Desde que comecei minha jornada estudando programação há 2 anos atrás,
-            fiz vários projetos pessoais tais como: landing pages, e-commerce, blogs, focados nas tecnologias HTML, CSS, JavaScript, PHP, mySQL e frameworks adversos. Sou silenciosamente confiante, naturalmente curioso e sempre trabalhando para melhorar minhas habilidades como desenvolvedor, sempre tentado resolver os problemas um a um.
-            E atualmente fazendo a minha graduação em Análise e Desenvolvimento de Sistemas.
+            Em apenas 2 anos, minha jornada na programação me levou a criar diversos projetos impactantes, incluindo landing pages, e-commerce e blogs. Minha expertise abrange HTML, CSS, JavaScript, PHP, MySQL e vários frameworks. Sou apaixonado por desafios e estou constantemente aprimorando minhas habilidades. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas, pronto para fazer a diferença como desenvolvedor.
           </p>  
         </div>
+        <button type="button" class="buttonClass buttonCV rounded-4 font-style-title btn">
+          <a href="https://drive.google.com/file/d/1bKQ-4pjGeEGPJ8tVE_c4SByBvlYwrTB1/view?usp=sharing">Download CV</a>
+        </button>
       </div>
     </section><!-- sessão de apresentação -->
 
@@ -124,125 +124,96 @@
     </section><!-- sessão de stacks -->
 
     <section class="container section3">
-      <div class="d-flex flex-column justify-content-center align-items-center rounded-4 bg-card-secondary p-4">
+      <div class="d-flex flex-column justify-content-center align-items-center rounded-4 bg-card-secondary p-4 bord">
             
         <p class="font-style-title font-color-title text-center font-size-p p-3">
-          Meus repositórios, acesse meu github abaixo 👇
+          Acesse meu perfil no github logo abaixo 👇
         </p>
               
-        <!-- Button trigger modal -->
-        <button type="button" class="buttonClass rounded-4 fs-6 mb-3 font-style-title" data-bs-toggle="modal" data-bs-target="#exampleModalRepos">
-          <i class="fa-brands fa-github me-2"></i> Ver projetos
+        <button type="button" class="buttonClass rounded-4 fs-6 mb-3 font-style-title">
+          <a href="https://github.com/douglas-to"><i class="fa-brands fa-github me-2"></i> Ver perfil</a>
         </button>
-
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModalRepos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content scroll-modal">
-              
-              <div class="modal-header">
-                <h5 class="modal-title">Projetos✍</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-
-              <div class="modal-body text-start">
-                <ul></ul>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
       </div>
-    </section><!-- sessão ver projetos -->
+    </section><!-- sessão perfil -->
 
     <section class="section4 container">      
-      <div class="bg-card-secondary mt-5 p-4 rounded-4">
+      <div class="bg-card-secondary mt-5 p-4 rounded-4 bord">
         
         <p class="font-style-title font-color-title text-center font-size-p p-3">
-          Meus certificados conquistados até o momento! 👇
+          Projetos que já trabalhei! 👇
         </p>
         
-        <div class="display-flex-certs">
+        <div class="display-flex-projects">
 
-        <!-- Button trigger modal -->
-          <button type="button" class="buttonClass rounded-4 mx-2 my-2" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-            <img class="img-fluid mx-auto" src="images/cert1.png" alt="certificado-1">
+          <!-- Botão para ativar modal -->
+          <button type="button" class="buttonClass rounded-4 mx-2 my-2 custom-card" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+            <img src="images/img1.png" alt="certificado-1">
           </button>
 
-        <!-- Modal -->
+          <!-- Modal -->
           <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-body">
-                  <img class="img-fluid mx-auto" src="images/cert1-lg.png" alt="certificado-1">
+                  <img class="img-fluid mx-auto" src="images/img1.png" alt="certificado-1">
+
+                  <button type="button" class="buttonClass rounded-4 fs-6 mt-3 font-style-title">
+                    <a href="https://aluguel-carros-pi.vercel.app/index.html" class="font-color-title">
+                      <i class="fa-regular fa-file"></i> Ver projeto
+                    </a>
+                  </button>
                 </div>
               </div>
             </div>
           </div>
-
-          <button type="button" class="buttonClass rounded-4 mx-2 my-2" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-            <img class="img-fluid mx-auto" src="images/cert2.png" alt="certificado-2">
+          
+          <!-- Botão para ativar modal -->
+          <button type="button" class="buttonClass rounded-4 mx-2 my-2 custom-card" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+            <img class="img-fluid mx-auto" src="images/img2.png" alt="certificado-1">
           </button>
 
-        <!-- Modal -->
+          <!-- Modal2 -->
           <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-body">
-                  <img class="img-fluid mx-auto" src="images/cert2-lg.png" alt="certificado-2">
+                  <img class="img-fluid mx-auto" src="images/img2.png" alt="certificado-1">
+
+                  <button type="button" class="buttonClass rounded-4 fs-6 mt-3 font-style-title">
+                    <a href="https://cruise-on-douglas-to.vercel.app/" class="font-color-title">
+                      <i class="fa-regular fa-file"></i> Ver projeto
+                    </a>
+                  </button>
                 </div>
               </div>
             </div>
           </div>
 
-          <button type="button" class="buttonClass rounded-4 mx-2 my-2" data-bs-toggle="modal" data-bs-target="#exampleModal3">
-            <img class="img-fluid mx-auto" src="images/cert3.png" alt="certificado-3">
+          <!-- Botão para ativar modal -->
+          <button type="button" class="buttonClass rounded-4 mx-2 my-2 custom-card" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+            <img class="img-fluid mx-auto" src="images/img3.png" alt="certificado-1">
           </button>
 
-        <!-- Modal -->
+          <!-- Moda3 -->
           <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-body">
-                  <img class="img-fluid mx-auto" src="images/cert3-lg.png" alt="certificado-3">
+                  <img class="img-fluid mx-auto" src="images/img3.png" alt="certificado-1">
+                  
+                  <button type="button" class="buttonClass rounded-4 fs-6 mt-3 font-style-title">
+                    <a href="https://theocritean-specifi.000webhostapp.com/" class="font-color-title">
+                      <i class="fa-regular fa-file"></i> Ver projeto
+                    </a>
+                  </button>
                 </div>
               </div>
             </div>
           </div>
 
-          <button type="button" class="buttonClass rounded-4 mx-2 my-2" data-bs-toggle="modal" data-bs-target="#exampleModal4">
-            <img class="img-fluid mx-auto" src="images/cert4.png" alt="certificado-4">
-          </button>
-
-        <!-- Modal -->
-          <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                <div class="modal-body">
-                  <img class="img-fluid mx-auto" src="images/cert4-lg.png" alt="certificado-4">
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <button type="button" class="buttonClass rounded-4 mx-2 my-2" data-bs-toggle="modal" data-bs-target="#exampleModal5">
-            <img class="img-fluid mx-auto" src="images/cert5.png" alt="certificado-5">
-          </button>
-
-        <!-- Modal -->
-          <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                <div class="modal-body">
-                  <img class="img-fluid mx-auto" src="images/cert5-lg.png" alt="certificado-5">
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
-    </section>
+    </section><!-- sessão de projetos -->
 
     <footer class="bg-card-white footer">
       <div class="col-md-12">
@@ -283,7 +254,7 @@
           </span>
 
           <span class="font-style-title font-color-title font-size-p mt-2 mb-2 text-decoration-none">
-            Web page feito, utilizando <i class="fa-brands fa-bootstrap font-size-p"></i>
+            Web page feita, utilizando <i class="fa-brands fa-bootstrap font-size-p"></i>
           </span>
 
         </div>

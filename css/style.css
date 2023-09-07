@@ -41,6 +41,29 @@ body::-webkit-scrollbar-thumb {
   	background-color:var(--highlight);    
 }
 
+/* Personalize o estilo dos cards dos projetos*/
+.custom-card{
+	overflow: hidden;
+	max-width: 300px; 
+}
+
+.custom-card img{
+    max-width: 100%;
+    height:auto;
+}
+
+.display-flex-projects{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:center;
+}
+
+.btn{
+	position:relative;
+	top:1.5rem;
+}
+
 /* Backgrounds-colors */
 
 body{
@@ -63,10 +86,14 @@ body{
 	background-color:var(--tertiary);
 }
 
-/* width para card de texto */
+/* width para card de texto e borda de cards */
 
 .width{
 	width:90%;
+}
+
+.bord{
+	border:2px solid var(--title-color);
 }
 
 /* fonts e cores dos texto e titulos */
@@ -132,11 +159,8 @@ body{
 	color:var(--title-color);
 }
 
-.display-flex-certs{
-	display:flex;
-	flex-direction:row;
-	justify-content:center;
-	align-items:center;
+.buttonClass a:hover, .buttonClass a{
+	color:var(--title-color);
 }
 
 /* Tamanhos de textos em diferentes telas */
@@ -154,7 +178,7 @@ body{
 		font-size:15.5px;
 	}
 
-	.display-flex-certs{
+	.display-flex-projects{
 		flex-direction:column;
 	}
 
@@ -166,8 +190,21 @@ body{
 	}
 
 	.font-size-p{
+		font-size:13px;
+	}
+
+	.custom-card{
+		max-width:200px;
+	}
+
+	.buttonCV{
+		font-size:0.7rem;
+	}
+
+	.section2 h5{
 		font-size:12px;
 	}
+
 }
 
 @media (max-width: 450px){
@@ -176,10 +213,10 @@ body{
 	}
 
 	.font-size-p{
-		font-size:9px;
+		font-size:11px;
 	}
 
-	.display-flex-certs{
+	.display-flex-projects{
 		flex-direction:column;
 	}
 
